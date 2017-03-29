@@ -1,0 +1,23 @@
+.jump{
+	animation: jump 0.5s steps(1);
+	-moz-animation: jump 0.5s steps(1);
+	-webkit-animation: jump 0.5s steps(1);
+}
+
+@-moz-keyframes jump {
+	0% { background-position:  -24px -689px; width: 34px; bottom:20px; height: 63px; }
+	20%{ background-position:  -73px -689px; width: 34px; bottom:30px; height: 63px;}
+	40%{ background-position:  -140px -688px; width: 49px; bottom:20px; height: 64px;}
+	60%{ background-position:  -203px -689px; width: 49px; bottom:1px; height: 63px;}
+	80%{ background-position: -277px -720px; width: 31px; bottom:0px; height: 43px; }
+	100%{ background-position:  -25px -346px; width: 43px; height: 58px;}
+}
+
+@-webkit-keyframes jump {
+	0% { background-position:  -24px -689px; width: 34px; bottom:20px; height: 63px; }
+	20%{ background-position:  -73px -689px; width: 34px; bottom:30px; height: 63px;}
+	40%{ background-position:  -140px -688px; width: 49px; bottom:20px; height: 64px;}
+	60%{ background-position:  -203px -689px; width: 49px; bottom:1px; height: 63px;}
+	80%{ background-position: -277px -720px; width: 31px; bottom:0px; height: 43px; }
+	100%{ background-position:  -25px -346px; width: 43px; height: 58px;}
+}

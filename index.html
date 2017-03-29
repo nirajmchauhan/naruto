@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="Most popular Anime NARUTO is coded into web using CSS3 animation and sprites.">
+	<meta name="author" content="Niraj Chauhan">
+
+	<meta property="og:title" content="A CSS3 sprite and animation Experiment"/>
+	<meta property="og:image" content="images/naruto.png"/>
+	<meta property="og:site_name" content="Niraj Chauhan"/>
+	<meta property="og:description" content="Most popular Anime NARUTO is coded into web using CSS3 animation and sprites."/>
+	
+	<title>Naruto | A CSS3 sprite and animation Experiment</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/keys.css">
+	<link rel="stylesheet" href="css/walk.css">
+	<link rel="stylesheet" href="css/jump.css">
+	<link rel="stylesheet" href="css/kneel.css">
+	<link rel="stylesheet" href="css/rasengan.css">
+	<link rel="stylesheet" href="css/punch.css">
+	<link rel="stylesheet" href="css/rasenshuriken.css">
+	<link href='http://fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/summon.css">
+</head>
+<body>
+
+	<div class="overlay">
+		<div class="loader">
+			<p></p>
+		</div>
+		<div class="browser_message">
+			This page is not supported on mobiles or tablets. But still you can enjoy the music.
+		</div>
+	</div>
+
+	<h1 class="title">Naruto Uzumaki</h1>
+
+	<div class="help"> <i class="help_icon">&quest;</i>
+		<div>
+			<p>
+				<kbd>A</kbd>
+				- Punch
+			</p>
+			<p>
+				<kbd>S</kbd>
+				- Summoning Jutsu
+			</p>
+			<p>
+				<kbd>shift</kbd>
+				- Rasen Shuriken
+			</p>
+			<p>
+				<kbd>space</kbd>
+				- Rasengan
+			</p>
+			<p>
+				<kbd>arrows</kbd>
+				- Jump, Run, Crouch, Back
+			</p>
+			<hr>
+			<p>
+				Sound:
+			</p>
+			<p>
+				<input type="checkbox" class="mute_song" checked disabled="" /> Song
+			</p>
+			<p>
+				<input type="checkbox" class="mute_effects" checked /> <span class="effects_msg">Effects</span>
+			</p>
+		</div>
+	</div>
+
+	<div class="arena">
+		<div class="naruto stance"></div>
+		<div class="bomb"></div>
+	</div>
+
+
+	<audio class="sound_effect rasengan_audio" src="./soundtracks/rasengan.mp3"></audio>
+	<audio class="sound_effect punch_audio" src="./soundtracks/punch.wav"></audio>
+	<audio class="sound_effect walk_audio" src="./soundtracks/walk.wav"></audio>
+	<audio class="sound_effect jump_audio" src="./soundtracks/jump.wav"></audio>
+	<audio class="sound_effect rasenshuriken_audio" src="./soundtracks/rasen-shuriken.mp3"></audio>
+	<audio class="sound_effect summon_audio" src="./soundtracks/summon.wav"></audio>
+
+	<iframe style="position:absolute; left-5999px;top:-5999px;" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/30670622&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+	<div class="info"> <i class="info_icon">&#8505;</i>
+		<div style="display:none;">
+			A CSS3 & JavaScript experiment inspired by
+			<a href="http://davidwalsh.name/street-fighter" target="_blank">David Walsh's Street Fighter</a>
+			. Its not made with GIF Images and neither its responsive. <br>
+			Developer by <a href="https://twitter.com/nirajmchauhan" class="me" target="_blank">@nirajmchauhan</a>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://w.soundcloud.com/player/api.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>

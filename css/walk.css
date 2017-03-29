@@ -1,0 +1,47 @@
+.walk{
+	animation: walk 0.8s steps(1) infinite;
+	-moz-animation: walk 0.8s steps(1) infinite;
+	-webkit-animation: walk 0.8s steps(1) infinite;
+}
+
+@-moz-keyframes walk {
+	0% { background-position:  -386px -469px; width: 44px; height: 48px; }
+	20%{ background-position:  -442px -468px; width: 58px; height: 43px;}
+	40%{ background-position:  -517px -467px; width: 50px; height: 48px;}
+	60%{ background-position:  -581px -469px; width: 41px; height: 46px;}
+	80%{ background-position: -633px -466px; width: 55px; height: 45px; }
+	100%{ background-position:  -703px -468px; width: 52px; height: 49px;}
+}
+
+@-webkit-keyframes walk {
+	0% { background-position:  -386px -469px; width: 44px; height: 48px; }
+	20%{ background-position:  -442px -468px; width: 58px; height: 43px;}
+	40%{ background-position:  -517px -467px; width: 50px; height: 48px;}
+	60%{ background-position:  -581px -469px; width: 41px; height: 46px;}
+	80%{ background-position: -633px -466px; width: 55px; height: 45px; }
+	100%{ background-position:  -703px -468px; width: 52px; height: 49px;}
+}
+
+.walk_back{
+	animation: walk_back 0.5s steps(1) infinite;
+	-moz-animation: walk_back 0.5s steps(1) infinite;
+	-webkit-animation: walk_back 0.5s steps(1) infinite;
+}
+
+@-moz-keyframes walk_back {
+	0% { background-position:  -24px -689px; width: 34px; bottom:20px; height: 63px; }
+	20%{ background-position:  -73px -689px; width: 34px; bottom:30px; height: 63px;}
+	40%{ background-position:  -140px -688px; width: 49px; bottom:20px; height: 64px;}
+	60%{ background-position:  -203px -689px; width: 49px; bottom:1px; height: 63px;}
+	80%{ background-position: -277px -720px; width: 31px; bottom:0px; height: 43px; }
+	100%{ background-position:  -25px -346px; width: 43px; height: 58px;}
+}
+
+@-webkit-keyframes walk_back {
+	0% { background-position:  -24px -689px; width: 34px; bottom:20px; height: 63px; }
+	20%{ background-position:  -73px -689px; width: 34px; bottom:30px; height: 63px;}
+	40%{ background-position:  -140px -688px; width: 49px; bottom:20px; height: 64px;}
+	60%{ background-position:  -203px -689px; width: 49px; bottom:1px; height: 63px;}
+	80%{ background-position: -277px -720px; width: 31px; bottom:0px; height: 43px; }
+	100%{ background-position:  -25px -346px; width: 43px; height: 58px;}
+}

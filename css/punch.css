@@ -1,0 +1,19 @@
+.punch{
+	animation: punch 0.4s steps(1) infinite;
+	-moz-animation: punch 0.4s steps(1) infinite;
+	-webkit-animation: punch 0.4s steps(1) infinite;
+}
+
+@-moz-keyframes punch {
+	0%{ background-position:  -28px -932px; width: 41px; height: 57px; }
+	30%{ background-position:  -87px -933px; width: 39px; height: 56px; }
+	70%{ background-position:  -141px -932px; width: 62px; height: 57px; }
+	100%{ background-position:  -217px -931px; width: 56px; height: 58px;}
+}
+
+@-webkit-keyframes punch {
+	0%{ background-position:  -28px -932px; width: 41px; height: 57px; }
+	30%{ background-position:  -87px -933px; width: 39px; height: 56px; }
+	70%{ background-position:  -141px -932px; width: 62px; height: 57px; }
+	100%{ background-position:  -217px -931px; width: 56px; height: 58px;}
+}

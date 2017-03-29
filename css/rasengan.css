@@ -1,0 +1,142 @@
+.rasengan{
+	animation: rasengan 6s steps(1);
+	-moz-animation: rasengan 6s steps(1);
+	-webkit-animation: rasengan 6s steps(1);
+	background-position:  -236px -2962px; width: 60px; height: 51px;
+}
+
+.bomb{
+	display: inline-block;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.rasengan_bomb{
+	background-image: url("../images/sprite.png");
+	background-repeat: no-repeat;
+	animation: rasengan_bomb 2s steps(1);
+	-moz-animation: rasengan_bomb 2s steps(1);
+	-webkit-animation: rasengan_bomb 2s steps(1);
+}
+
+@-moz-keyframes rasengan {
+	0% { background-position:  -764px -820px; width: 39px; height: 55px; }
+	2%{ background-position:  -817px -820px; width: 38px; height: 55px;}
+	4%{ background-position:  -160px -2422px; width: 62px; height: 53px;}
+	6%{ background-position:  -236px -2422px; width: 65px; height: 56px;}
+	8%{ background-position: -311px -2418px; width: 66px; height: 58px; }
+	10%{ background-position:  -389px -2417px; width: 69px; height: 59px;}
+	12%{ background-position:  -471px -2415px; width: 80px; height: 61px;}
+	14%{ background-position:  -557px -2412px; width: 81px; height: 64px;}
+	16%{ background-position:  -691px -2420px; width: 58px; height: 56px;}
+	18%{ background-position:  -756px -2422px; width: 60px; height: 54px;}
+	20%{ background-position:  -824px -2422px; width: 61px; height: 54px;}
+	22%{ background-position:  -893px -2422px; width: 61px; height: 54px;}
+	24%{ background-position:  -29px -2527px; width: 58px; height: 56px;}
+	26%{ background-position:  -99px -2529px; width: 60px; height: 54px;}
+	28%{ background-position:  -170px -2529px; width: 61px; height: 54px;}
+	30%{ background-position:  -239px -2529px; width: 61px; height: 54px;}
+	32%{ background-position:  -315px -2527px; width: 58px; height: 56px;}
+	34%{ background-position:  -384px -2529px; width: 60px; height: 54px;}
+	36%{ background-position:  -451px -2529px; width: 61px; height: 54px;}
+	38%{ background-position:  -521px -2529px; width: 61px; height: 54px;}
+	40%{ background-position:  -22px -2635px; width: 62px; height: 54px;}
+	42%{ background-position:  -95px -2635px; width: 65px; height: 56px;}
+	44%{ background-position:  -172px -2631px; width: 66px; height: 58px;}
+	46%{ background-position:  -250px -2630px; width: 69px; height: 58px;}
+	48%{ background-position:  -331px -2628px; width: 80px; height: 60px;}
+	50%{ background-position:  -424px -2625px; width: 81px; height: 63px;}
+	52%{ background-position:  -575px -2635px; width: 36px; height: 53px;}
+	54%{ background-position:  -805px -2635px; width: 36px; height: 53px;}
+	56%{ background-position:  -21px -2724px; width: 55px; height: 55px;}
+	58%{ background-position:  -89px -2725px; width: 53px; height: 54px;}
+	60%{ background-position:  -153px -2725px; width: 52px; height: 54px;}
+	62%{ background-position:  -215px -2725px; width: 50px; height: 54px;}
+	64%{ background-position:  -278px -2728px; width: 45px; height: 51px;}
+	66%{ background-position:  -336px -2728px; width: 44px; height: 51px;}
+	68%{ background-position:  -393px -2728px; width: 64px; height: 51px;}
+	70%{ background-position:  -25px -2825px; width: 76px; height: 51px;}
+	72%{ background-position:  -114px -2812px; width: 105px; height: 64px;}
+	74%{ background-position:  -229px -2808px; width: 87px; height: 68px;}
+	76%{ background-position:  -331px -2813px; width: 107px; height: 63px;}
+	78%{ background-position:  -452px -2807px; width: 126px; height: 70px;}
+	80%{ background-position:  -599px -2791px; width: 150px; height: 86px;}
+	82%{ background-position:  -28px -2961px; width: 60px; height: 52px;}
+	90%{ background-position:  -95px -2962px; width: 60px; height: 51px;}
+	100%{ background-position:  -236px -2962px; width: 60px; height: 51px;}
+}
+
+@-webkit-keyframes rasengan {
+	0% { background-position:  -764px -820px; width: 39px; height: 55px; }
+	2%{ background-position:  -817px -820px; width: 38px; height: 55px;}
+	4%{ background-position:  -160px -2422px; width: 62px; height: 53px;}
+	6%{ background-position:  -236px -2422px; width: 65px; height: 56px;}
+	8%{ background-position: -311px -2418px; width: 66px; height: 58px; }
+	10%{ background-position:  -389px -2417px; width: 69px; height: 59px;}
+	12%{ background-position:  -471px -2415px; width: 80px; height: 61px;}
+	14%{ background-position:  -557px -2412px; width: 81px; height: 64px;}
+	16%{ background-position:  -691px -2420px; width: 58px; height: 56px;}
+	18%{ background-position:  -756px -2422px; width: 60px; height: 54px;}
+	20%{ background-position:  -824px -2422px; width: 61px; height: 54px;}
+	22%{ background-position:  -893px -2422px; width: 61px; height: 54px;}
+	24%{ background-position:  -29px -2527px; width: 58px; height: 56px;}
+	26%{ background-position:  -99px -2529px; width: 60px; height: 54px;}
+	28%{ background-position:  -170px -2529px; width: 61px; height: 54px;}
+	30%{ background-position:  -239px -2529px; width: 61px; height: 54px;}
+	32%{ background-position:  -315px -2527px; width: 58px; height: 56px;}
+	34%{ background-position:  -384px -2529px; width: 60px; height: 54px;}
+	36%{ background-position:  -451px -2529px; width: 61px; height: 54px;}
+	38%{ background-position:  -521px -2529px; width: 61px; height: 54px;}
+	40%{ background-position:  -22px -2635px; width: 62px; height: 54px;}
+	42%{ background-position:  -95px -2635px; width: 65px; height: 56px;}
+	44%{ background-position:  -172px -2631px; width: 66px; height: 58px;}
+	46%{ background-position:  -250px -2630px; width: 69px; height: 58px;}
+	48%{ background-position:  -331px -2628px; width: 80px; height: 60px;}
+	50%{ background-position:  -424px -2625px; width: 81px; height: 63px;}
+	52%{ background-position:  -575px -2635px; width: 36px; height: 53px;}
+	54%{ background-position:  -805px -2635px; width: 36px; height: 53px;}
+	56%{ background-position:  -21px -2724px; width: 55px; height: 55px;}
+	58%{ background-position:  -89px -2725px; width: 53px; height: 54px;}
+	60%{ background-position:  -153px -2725px; width: 52px; height: 54px;}
+	62%{ background-position:  -215px -2725px; width: 50px; height: 54px;}
+	64%{ background-position:  -278px -2728px; width: 45px; height: 51px;}
+	66%{ background-position:  -336px -2728px; width: 44px; height: 51px;}
+	68%{ background-position:  -393px -2728px; width: 64px; height: 51px;}
+	70%{ background-position:  -25px -2825px; width: 76px; height: 51px;}
+	72%{ background-position:  -114px -2812px; width: 105px; height: 64px;}
+	74%{ background-position:  -229px -2808px; width: 87px; height: 68px;}
+	76%{ background-position:  -331px -2813px; width: 107px; height: 63px;}
+	78%{ background-position:  -452px -2807px; width: 126px; height: 70px;}
+	80%{ background-position:  -599px -2791px; width: 150px; height: 86px;}
+	82%{ background-position:  -28px -2961px; width: 60px; height: 52px;}
+	90%{ background-position:  -95px -2962px; width: 60px; height: 51px;}
+	100%{ background-position:  -236px -2962px; width: 60px; height: 51px;}
+}
+
+@-moz-keyframes rasengan_bomb {
+	0% { background-position:  -339px -2938px; width: 98px; left:0px; height: 79px; }
+	10% { background-position:  -339px -2938px; width: 98px; left:50px; height: 79px; }
+	20% { background-position:  -458px -2941px; width: 96px; left:100px; height: 77px; }
+	30% { background-position:  -458px -2941px; width: 96px; left:150px; height: 77px; }
+	40% { background-position:  -576px -2940px; width: 89px; left:200px; height: 79px; }
+	50% { background-position:  -576px -2940px; width: 89px; left:250px; height: 79px; }
+	60% { background-position:  -688px -2940px; width: 94px; left:300px; height: 80px;}
+	70% { background-position:  -688px -2940px; width: 94px; left:350px; height: 80px;}
+	80% { background-position:  -688px -2940px; width: 94px; left:400px; height: 80px;}
+	90% { background-position:  -688px -2940px; width: 94px; left:450px; height: 80px;}
+	100% { background-position:  -688px -2940px; width: 94px; left:500px; height: 80px;}
+}
+
+@-webkit-keyframes rasengan_bomb {
+	0% { background-position:  -339px -2938px; width: 98px; left:0px; height: 79px; }
+	10% { background-position:  -339px -2938px; width: 98px; left:50px; height: 79px; }
+	20% { background-position:  -458px -2941px; width: 96px; left:100px; height: 77px; }
+	30% { background-position:  -458px -2941px; width: 96px; left:150px; height: 77px; }
+	40% { background-position:  -576px -2940px; width: 89px; left:200px; height: 79px; }
+	50% { background-position:  -576px -2940px; width: 89px; left:250px; height: 79px; }
+	60% { background-position:  -688px -2940px; width: 94px; left:300px; height: 80px;}
+	70% { background-position:  -688px -2940px; width: 94px; left:350px; height: 80px;}
+	80% { background-position:  -688px -2940px; width: 94px; left:400px; height: 80px;}
+	90% { background-position:  -688px -2940px; width: 94px; left:450px; height: 80px;}
+	100% { background-position:  -688px -2940px; width: 94px; left:500px; height: 80px;}
+}

@@ -1,0 +1,15 @@
+.kneel{
+	animation: kneel 0.8s steps(1) infinite;
+	-moz-animation: kneel 0.8s steps(1) infinite;
+	-webkit-animation: kneel 0.8s steps(1) infinite;
+}
+
+@-moz-keyframes kneel {
+	0%{ background-position:  -284px -588px; width: 31px; height: 43px; }
+	100%{ background-position:  -536px -589px; width: 36px; height: 42px;}
+}
+
+@-webkit-keyframes kneel {
+	0%{ background-position:  -284px -588px; width: 31px; height: 43px; }
+	100%{ background-position:  -536px -589px; width: 36px; height: 42px;}
+}

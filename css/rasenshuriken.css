@@ -1,0 +1,127 @@
+.rasenshuriken{
+	animation: rasenshuriken 5s steps(1);
+	-moz-animation: rasenshuriken 5s steps(1);
+	-webkit-animation: rasenshuriken 5s steps(1);
+	background-position:  -117px -4443px;
+	width: 67px;
+	height: 63px;
+}
+
+.rasenshuriken_bomb{
+	background-image: url("../images/sprite.png");
+	background-repeat: no-repeat;
+	animation: rasenshuriken_bomb 2s steps(1);
+	-moz-animation: rasenshuriken_bomb 2s steps(1);
+	-webkit-animation: rasenshuriken_bomb 2s steps(1);
+}
+
+@-moz-keyframes rasenshuriken {
+	0% { background-position:  -28px -3797px; width: 65px; height: 25px; }
+	3% { background-position: -107px -3766px; width: 73px; height: 59px;  }
+	6% { background-position: -198px -3752px; width: 72px; height: 73px;  }
+	9% { background-position: -283px -3746px; width: 76px; height: 79px;  }
+	12% { background-position: -372px -3742px; width: 83px; height: 83px;  }
+	15% { background-position:  -469px -3737px; width: 88px; height: 88px; }
+	18% { background-position: -619px -3766px; width: 57px; height: 59px;  }
+	21% { background-position: -686px -3766px; width: 58px; height: 59px;  }
+	24% { background-position: -757px -3766px; width: 59px; height: 59px;  }
+	27% { background-position:  -826px -3766px; width: 59px; height: 59px; }
+	30% { background-position: -40px -3890px; width: 57px; height: 59px;  }
+	33% { background-position: -107px -3890px; width: 58px; height: 59px;  }
+	36% { background-position: -175px -3890px; width: 59px; height: 59px;  }
+	39% { background-position: -243px -3890px; width: 59px; height: 59px;  }
+	42% { background-position: -315px -3890px; width: 57px; height: 59px;  }
+	45% { background-position: -384px -3890px; width: 58px; height: 59px;  }
+	48% { background-position: -451px -3890px; width: 59px; height: 59px;  }
+	51% { background-position: -520px -3890px; width: 59px; height: 59px;  }
+	54% { background-position:  -32px -3998px; width: 69px; height: 58px; }
+	57% { background-position:  -112px -4000px; width: 69px; height: 58px; }
+	60% { background-position: -196px -4000px; width: 69px; height: 58px;  }
+	63% { background-position:  -279px -4000px; width: 69px; height: 58px; }
+	66% { background-position: -360px -4000px; width: 69px; height: 58px;  }
+	69% { background-position: -502px -4000px; width: 69px; height: 58px;  }
+	72% { background-position: -588px -4000px; width: 63px; height: 58px;  }
+	75% { background-position:  -668px -3999px; width: 78px; height: 62px; }
+	78% { background-position: -767px -3998px; width: 86px; height: 63px;  }
+	81% { background-position:  -872px -3998px; width: 86px; height: 63px; }
+	82% { background-position: -32px -4094px; width: 114px; height: 80px;  }
+	84% { background-position: -168px -4096px; width: 110px; height: 78px;  }
+	86% { background-position: -308px -4101px; width: 112px; height: 73px;  }
+	88% { background-position:  -449px -4095px; width: 110px; height: 79px; }
+	90% { background-position:  -30px -4300px; width: 115px; height: 80px; }
+	92% { background-position:  -171px -4289px; width: 111px; height: 96px; }
+	94% { background-position:  -316px -4258px; width: 148px; height: 127px; }
+	96% { background-position:  -493px -4254px; width: 168px; height: 133px; }
+	98% { background-position:  -201px -4443px; width: 67px; height: 63px; }
+	100% { background-position:  -293px -4443px; width: 67px; height: 63px; }
+}
+
+@-moz-keyframes rasenshuriken_bomb {
+	0% { background-position:  -75px -5172px; width: 141px; height: 133px;left:50px; }
+	10% { background-position:  -252px -5161px; width: 174px; height: 143px;left:100px; }
+	20% { background-position:  -252px -5161px; width: 174px; height: 143px;left:150px; }
+	30% { background-position:  -450px -5209px; width: 172px; height: 99px;left:200px; }
+	40% { background-position:  -450px -5209px; width: 172px; height: 99px;left:250px; }
+	50% { background-position:  -662px -5179px; width: 138px; height: 128px;left:300px; }
+	60% { background-position:  -662px -5179px; width: 138px; height: 128px;left:350px; }
+	70% { background-position:  -837px -5178px; width: 134px; height: 131px;left:400px; }
+	80% { background-position:  -837px -5178px; width: 134px; height: 131px;left:450px; }
+	90% { background-position:  -48px -5336px; width: 157px; height: 142px;left:500px; }
+	100% { background-position:  -48px -5336px; width: 157px; height: 142px;left:550px; }
+}
+
+
+@-webkit-keyframes rasenshuriken {
+	0% { background-position:  -28px -3797px; width: 65px; height: 25px; }
+	3% { background-position: -107px -3766px; width: 73px; height: 59px;  }
+	6% { background-position: -198px -3752px; width: 72px; height: 73px;  }
+	9% { background-position: -283px -3746px; width: 76px; height: 79px;  }
+	12% { background-position: -372px -3742px; width: 83px; height: 83px;  }
+	15% { background-position:  -469px -3737px; width: 88px; height: 88px; }
+	18% { background-position: -619px -3766px; width: 57px; height: 59px;  }
+	21% { background-position: -686px -3766px; width: 58px; height: 59px;  }
+	24% { background-position: -757px -3766px; width: 59px; height: 59px;  }
+	27% { background-position:  -826px -3766px; width: 59px; height: 59px; }
+	30% { background-position: -40px -3890px; width: 57px; height: 59px;  }
+	33% { background-position: -107px -3890px; width: 58px; height: 59px;  }
+	36% { background-position: -175px -3890px; width: 59px; height: 59px;  }
+	39% { background-position: -243px -3890px; width: 59px; height: 59px;  }
+	42% { background-position: -315px -3890px; width: 57px; height: 59px;  }
+	45% { background-position: -384px -3890px; width: 58px; height: 59px;  }
+	48% { background-position: -451px -3890px; width: 59px; height: 59px;  }
+	51% { background-position: -520px -3890px; width: 59px; height: 59px;  }
+	54% { background-position:  -32px -3998px; width: 69px; height: 58px; }
+	57% { background-position:  -112px -4000px; width: 69px; height: 58px; }
+	60% { background-position: -196px -4000px; width: 69px; height: 58px;  }
+	63% { background-position:  -279px -4000px; width: 69px; height: 58px; }
+	66% { background-position: -360px -4000px; width: 69px; height: 58px;  }
+	69% { background-position: -502px -4000px; width: 69px; height: 58px;  }
+	72% { background-position: -588px -4000px; width: 63px; height: 58px;  }
+	75% { background-position:  -668px -3999px; width: 78px; height: 62px; }
+	78% { background-position: -767px -3998px; width: 86px; height: 63px;  }
+	81% { background-position:  -872px -3998px; width: 86px; height: 63px; }
+	82% { background-position: -32px -4094px; width: 114px; height: 80px;  }
+	84% { background-position: -168px -4096px; width: 110px; height: 78px;  }
+	86% { background-position: -308px -4101px; width: 112px; height: 73px;  }
+	88% { background-position:  -449px -4095px; width: 110px; height: 79px; }
+	90% { background-position:  -30px -4300px; width: 115px; height: 80px; }
+	92% { background-position:  -171px -4289px; width: 111px; height: 96px; }
+	94% { background-position:  -316px -4258px; width: 148px; height: 127px; }
+	96% { background-position:  -493px -4254px; width: 168px; height: 133px; }
+	98% { background-position:  -201px -4443px; width: 67px; height: 63px; }
+	100% { background-position:  -293px -4443px; width: 67px; height: 63px; }
+}
+
+@-webkit-keyframes rasenshuriken_bomb {
+	0% { background-position:  -75px -5172px; width: 141px; height: 133px;left:50px; }
+	10% { background-position:  -252px -5161px; width: 174px; height: 143px;left:100px; }
+	20% { background-position:  -252px -5161px; width: 174px; height: 143px;left:150px; }
+	30% { background-position:  -450px -5209px; width: 172px; height: 99px;left:200px; }
+	40% { background-position:  -450px -5209px; width: 172px; height: 99px;left:250px; }
+	50% { background-position:  -662px -5179px; width: 138px; height: 128px;left:300px; }
+	60% { background-position:  -662px -5179px; width: 138px; height: 128px;left:350px; }
+	70% { background-position:  -837px -5178px; width: 134px; height: 131px;left:400px; }
+	80% { background-position:  -837px -5178px; width: 134px; height: 131px;left:450px; }
+	90% { background-position:  -48px -5336px; width: 157px; height: 142px;left:500px; }
+	100% { background-position:  -48px -5336px; width: 157px; height: 142px;left:550px; }
+}

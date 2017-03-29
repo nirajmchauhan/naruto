@@ -1,0 +1,39 @@
+.summon{
+	animation: summon 3s steps(1);
+	-moz-animation: summon 3s steps(1);
+	-webkit-animation: summon 3s steps(1);
+}
+
+@-moz-keyframes summon {
+	0%{ background-position:  -128px -1294px; width: 103px; height: 87px; }
+	7%{ background-position:-237px -1299px; width: 127px; height: 80px; }
+	14%{ background-position:-374px -1302px; width: 140px; height: 79px; }
+	21%{ background-position: -535px -1302px; width: 94px; height: 76px;}
+	27%{ background-position:-642px -1297px; width: 94px; height: 81px;}
+	35%{ background-position:-753px -1304px; width: 94px; height: 74px;}
+	42%{ background-position:-860px -1302px; width: 94px; height: 76px;}
+	49%{ background-position:-47px -1450px; width: 90px; margin-bottom:10px; height: 126px;}
+	56%{ background-position:-151px -1436px; width: 120px; margin-bottom:30px; height: 144px;}
+	63%{ background-position:-276px -1436px; width: 120px; margin-bottom:40px; height: 144px;}
+	70%{ background-position: -507px -1459px; width: 90px; height: 87px; margin-bottom:0;}
+	80%{ background-position: -616px -1464px; width: 127px; height: 80px; margin-bottom:0;}
+	90%{ background-position: -753px -1467px; width: 140px; height: 79px; margin-bottom:0;}
+	100%{ background-position: -25px -346px; width: 43px; height: 58px; margin-bottom:0;}
+}
+
+@-webkit-keyframes summon {
+	0%{ background-position:  -128px -1294px; width: 103px; height: 87px; }
+	7%{ background-position:-237px -1299px; width: 127px; height: 80px; }
+	14%{ background-position:-374px -1302px; width: 140px; height: 79px; }
+	21%{ background-position: -535px -1302px; width: 94px; height: 76px;}
+	27%{ background-position:-642px -1297px; width: 94px; height: 81px;}
+	35%{ background-position:-753px -1304px; width: 94px; height: 74px;}
+	42%{ background-position:-860px -1302px; width: 94px; height: 76px;}
+	49%{ background-position:-47px -1450px; width: 90px; margin-bottom:10px; height: 126px;}
+	56%{ background-position:-151px -1436px; width: 120px; margin-bottom:30px; height: 144px;}
+	63%{ background-position:-276px -1436px; width: 120px; margin-bottom:40px; height: 144px;}
+	70%{ background-position: -507px -1459px; width: 90px; height: 87px; margin-bottom:0;}
+	80%{ background-position: -616px -1464px; width: 127px; height: 80px; margin-bottom:0;}
+	90%{ background-position: -753px -1467px; width: 140px; height: 79px; margin-bottom:0;}
+	100%{ background-position: -25px -346px; width: 43px; height: 58px; margin-bottom:0;}
+}
