@@ -90,6 +90,9 @@ var summon = function () {
 };
 
 $(document).on('keydown keyup', function (e) {
+	if($('.theme').get(0).paused){
+		$('.theme').get(0).play();
+	}
 	if (!pause) {
 		if (e.type == 'keydown') {
 			switch (e.which) {
@@ -169,7 +172,7 @@ $(document).ready(function () {
 		$('audio.sound_effect').each(function () {
 			$(this).get(0).volume = volume;
 		});
-		$('.theme').volume = volume;
+		$('.theme').get(0).volume = volume;
 	});
 
 	$('.help_icon,.info_icon').on('click', function (e) {
